@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tabuda em js</title>
+</head>
+<body>
+    <h2>Digite um número e confirme para gerar uma tabuada</h2>
+    <form id="multiplication-form">
+        <div class="form-control">
+            <label for="numero">Tabuada do:</label>
+            <input type="number" name="number" id="number" placeholder="3"/>
+        </div>
+        <div class="form-control">
+            <label for="Multiplicar">Multiplicar até:</label>
+            <input type="number" name="multiplicator" id="multiplicator" value="10"/> <!-- value pois normalmente o usuario quer a ultiplicação até 10-->
+        </div>
+        <button type="submit">calcular</button>
+    </form>
+
+    <div class="multiplication-table">
+        <h2 class="multiplication-title">Tabuada do número: <span></span></h2>
+        <div class="multiplication-operations">
+            <p>Informe um numero para calcular uma tabuada...</p>
+            <div class="row">
+                <div class="operation">5 x 1 =</div>
+                <div class="result">5</div>
+            </div>
+            <div class="row">
+                <div class="operation">5 x 2 =</div>
+                <div class="result">10</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
